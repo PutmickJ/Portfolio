@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>Rando Bootstrap</title>
+<meta charset='UTF-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<style>
+body{
+	background-color: black;
+	color: white;
+}
+
+.container{
+	padding: 80px 120px;
+}
+
+.person{
+	opacity: 0.7;
+	width: 80%;
+	height: 80%;
+	border: 10px solid transparent;
+}
+#Bridges{
+	margin-top: 50px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid text-center" id="Bridges">
+<img src="Bridges.jpg" alt="Bridges">
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Logo</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#tour">Tour</a></li>
+				<li><a href="#band">Band</a></li>
+				<li><a href="#media">Media</a></li>
+			</ul>
+		</div>
+	</div>
+</div>						
+
+<div class="container text-center">
+	<h3>Biodigital JazzMan</h3>
+	<p><em>Check out our new track</em></p>
+	<br>
+	<div class="row" id="band">
+		<div class="col-sm-4">
+		<img src="hawks.jpg" class="image-circle person" alt="Drums">
+		<br>
+		<p>Daddy</p>
+		</div>
+
+		<div class="col-sm-4">
+		<img src="hawks.jpg" class="image-circle person" alt="Guitar">
+		<br>
+		<p>Eskimo</p>
+		</div>
+
+		<div class="col-sm-4">
+		<img src="hawks.jpg" class="image-circle person" alt="Guitar II">
+		<br>
+		<p>Putmick</p>
+		</div>
+	</div>
+</div> 
+
+</body>
+
+</html>
